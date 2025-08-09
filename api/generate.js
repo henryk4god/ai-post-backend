@@ -74,7 +74,7 @@ OUTPUT:
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "deepseek/deepseek-r1-distill-qwen-14b:free",
+        model: "qwen/qwen3-30b-a3b:free",
         messages: [
           { role: "system", content: "You are a helpful AI that writes high-quality, engaging social media posts." },
           { role: "user", content: prompt }
