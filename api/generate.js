@@ -44,7 +44,7 @@ Numbered list of 5 posts, each with Hook + Body + Call-to-action.
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        model: "deepseek/deepseek-r1-distill-qwen-14b:free",
+        model: "deepseek/deepseek-r1-0528:free",
         messages: [
           { role: "system", content: "You are a helpful AI that writes high-quality social media posts." },
           { role: "user", content: prompt }
